@@ -50,8 +50,8 @@
 .div_dad {
     margin-top: 40px;
     padding: 20px;
-    height: calc(100vh - 300px);
-    width: calc(100wh - 300px);
+    height: calc(100vh - 200px);
+    width: calc(100wh - 200px);
     background-color: #0059ff;
     
     
