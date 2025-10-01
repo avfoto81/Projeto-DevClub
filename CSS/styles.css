@@ -1,0 +1,124 @@
+/* CSS Document */
+
+/* 
+    Unidade de medidas
+    
+    -> ABSOLUTAS
+        px (pixels)
+        
+    -> RELATIVAS
+        em (relativo ao elemento pai)
+        rem (relativo ao elemento raiz)
+
+        % (porcentagem)
+        vw (viewport width - largura da tela)
+        vh (viewport height - altura da tela)
+
+        vmin (viewport minimum - menor valor entre vw e vh)
+        vmax (viewport maximum - maior valor entre vw e vh)
+        
+        */
+
+        
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box {
+    display: flex;
+    width: 800px;
+    background-color: #e4e4e454;
+    padding: 10px 10px;
+    margin: 20px 20px;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #dddddd;
+    padding: 20px;
+    border: 3px solid #798388 ;
+  
+}
+
+.div_dad {
+    margin-top: 40px;
+    padding: 20px;
+    height: calc(100vh - 300px);
+    width: calc(100wh - 300px);
+    background-color: #0059ff;
+    
+    
+}
+
+.div_son {
+   height: 150px;
+    width: 150px;
+    background-color: #ffe600;
+    
+}
+
+.div_outra {
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+
+    
+}
+
+
+#titulo {
+    color: #bba800;
+    font-size: 64px;
+    font-weight: 75;
+    /* background: #e7e7e7; */
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+#texto {
+    color: rgb(31, 0, 116);
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.paragrafo {
+    color: #005d88;
+   
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #d8a600;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.botao-azul {
+    background-color: #005d88;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+ 
