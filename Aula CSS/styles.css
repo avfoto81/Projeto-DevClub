@@ -1,0 +1,17 @@
+/* Documento CSS do Projeto DevClub - Aula 01 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+    padding: 0 20px;
+}
